@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Seres</title>
+        <link rel="stylesheet" href="Style.css">
+        <style>
+            body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #12c2e9;
+            background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+            background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+            }
+
+            .container {
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            header {
+                background-color: #39373758;
+                color: #fff;
+                padding: 20px 0;
+            }
+
+            header nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            header nav ul li {
+                display: inline;
+                margin-right: 20px;
+            }
+
+            header nav ul li a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+            .hero {
+                background-image: url('background.jpg');
+                background-size: cover;
+                background-position: center;
+                color: #000000;
+                text-align: center;
+                padding: 20px 0;
+            }
+
+            .hero h2 {
+                font-size: 36px;
+                margin-bottom: 20px;
+            }
+
+            .hero p {
+                font-size: 18px;
+                margin-bottom: 30px;
+            }
+
+            .btn {
+                display: inline-block;
+                background-color: #B775F1;
+                color: #fff;
+                padding: 10px 20px;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+
+            .btn:hover {
+                background-color: #A55EE3;
+            }
+
+            footer {
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                padding: 20px 0;
+            }
+
+            .feed {
+            width: 80%;
+            margin: 1 auto;
+            padding: 20px;
+            background-color: #f4f3e5;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+
+            .search-container {
+            padding-left: 20%;
+            display: inline;
+            align-items: center;
+            }
+
+            .search-box {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            width: 300px;
+            }
+
+            .search-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #B775F1;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            margin-left: 5px;
+            cursor: pointer;
+            }
+
+            .search-button:hover {
+            background-color: #A55EE3;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1 style="font-size: 40px ;">Seres</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Perfil</a></li>
+                        <li><a href="#">Chat</a></li>
+                        <li><a href="#">Notificaciones</a></li>
+                        <li><a href="#">Cerrar sesión</a></li>
+                        <li><a href="">
+                                <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                                <lord-icon
+                                    src="https://cdn.lordicon.com/smwmetfi.json"
+                                    trigger="hover"
+                                    colors="primary:#b775f1"
+                                    style="width:30px;height:30px">
+                                </lord-icon>
+                            </a>
+                        </li>
+                        <li class="search-container">
+                            <input type="text" placeholder="Buscar..." class="search-box">
+                            <button type="submit" class="search-button">Buscar</button>
+                        </li>
+                        
+                    </ul>
+                    
+                </nav>
+                
+            </div>
+        </header>
+    
+        <section class="hero">
+            <div class="feed">
+                <h2>Bienvenido a nuestra Red Social</h2>
+                <p>Conéctate con amigos, comparte momentos y descubre nuevas experiencias.</p>
+                <a href="#" class="btn">Registrarse</a>
+            </div>
+        </section>
+    
+        <footer style="background-color: #39373758;">
+            <div class="container">
+                <p>&copy; 2024 Red Social. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </body>
+</html>
+
+
