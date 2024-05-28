@@ -1,0 +1,35 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        textarea {
+            width: 100%;
+            min-height: 200px;
+            resize: vertical;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #B775F1;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <form id="publicar-pregunta-form">
+        <h4 style="margin-top: 30px;">¿Qué te gustaria preguntar?</h4>
+        <textarea id="pregunta" name="pregunta" required></textarea>
+        <a href="Index.html"><button type="submit">Publicar</button> </a>
+    </form>
+
+</body>

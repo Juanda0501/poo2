@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Subir Pregunta</title>
+
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f64f59;
+        background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59); 
+        background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #39373758;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .hero {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #000000;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #B775F1;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: #A55EE3;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .feed {
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 6px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-container {
+        padding-left: 20%;
+        display: inline;
+        align-items: center;
+        }
+
+        .search-box {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        width: 300px;
+        }
+
+        .search-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #B775F1;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        margin-left: 5px;
+        cursor: pointer;
+        }
+
+        .search-button:hover {
+        background-color: #A55EE3;
+        }
+
+        .post-button {
+            width: 50%;
+            padding: 10px;
+            background-color: #B775F1;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        textarea {
+            width: 50%;
+            min-height: 50px;
+            resize: vertical;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 style="font-size: 40px ;">Seres</h1>
+            <nav>
+                <ul>
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="#">Perfil</a></li>
+                    <li><a href="#">Chat</a></li>
+                    <li><a href="#">Notificaciones</a></li>
+                    <li><a href="#">Cerrar sesión</a></li>
+                    <li><a href="Post.html">
+                            <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                            <lord-icon
+                                src="https://cdn.lordicon.com/smwmetfi.json"
+                                trigger="hover"
+                                colors="primary:#b775f1"
+                                style="width:30px;height:30px">
+                            </lord-icon>
+                        </a>
+                    </li>
+                    <li class="search-container">
+                        <input type="text" placeholder="Buscar..." class="search-box">
+                        <button type="submit" class="search-button">Buscar</button>
+                    </li>
+                    
+                </ul>
+                
+            </nav>
+            
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="feed">
+            <h4 style="margin-top: 30px;">¿Qué te gustaria preguntar?</h4>
+            <textarea id="pregunta" name="pregunta" required></textarea>
+            <a href="Index.html"><button type="submit" class="post-button">Publicar</button> </a>
+        </div>
+    </section>
+
+    <footer style="background-color: #39373758;">
+        <div class="container">
+            <p>&copy; 2024 Red Social. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+</body>
+
+</html>

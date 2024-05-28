@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/8695b27503.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: #f64f59;
+            background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59); 
+            background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 600px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 10px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-info h2 {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+        .profile-info p {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .profile-stats {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .social-links {
+            text-align: center;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            font-size: 24px;
+            color: #ED1ABE;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            color: #fff;
+            background-color: #ED1ABE;
+            border-radius: 50%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-header">
+            <img src="Metro Boomin/Metro perfil.webp" alt="Profile Picture" class="profile-img">
+            <h2 class="profile-info">Metro Boomin</h2>
+        </div>
+        <div class="profile-info">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" value="Leland Tyler Bruce Wayne">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="MetroBoo@gmail.com">
+                <br><br>
+                <label for="bio">Bio:</label>
+                <textarea id="bio" name="bio">Productor, ejecutivo de discos, compositor y DJ​ estadounidense.</textarea>
+                <br><br>
+                <label for="profile-picture">Profile Picture:</label>
+                <input type="file" id="profile-picture" name="profile-picture">
+                <br><br>
+                <input type="submit" value="Guardar Cambios">
+            </form>
+        </div>
+        <div class="profile-stats">
+            <p>Posts: 100</p>
+            <p>Followers: 1000</p>
+            <p>Following: 500</p>
+        </div>
+        <div class="social-links">
+            <a href="https://www.facebook.com/MetroBoomin?mibextid=kFxxJD" class="fab fa-facebook-f"></a>
+            <a href="https://x.com/MetroBoomin?t=hdAr9LEihv1rnpF3NM4d2A&s=09" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/metroboomin?igsh=dTNjYmlhbHp2MHI1" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin-in"></a>
+        </div>
+    </div>
+
+</body>
+</html>
